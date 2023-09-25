@@ -2,7 +2,6 @@ body {
   margin: 0%;
   top: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-
   background-image: url(../Site01/imagens/Logo.png);
   background-color: #798b73;
   font-weight: bold;
@@ -82,6 +81,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 #Receitas {
   text-align: center;
   font-size: 20px;
@@ -95,53 +95,6 @@ body {
   color: #015527;
 }
 
-#ReceitasEmListas {
-  text-align: center;
-  font-size: 20px;
-}
-#ReceitasEmListas a {
-  text-decoration: none;
-  color: #ffffff;
-}
-#ReceitasEmListas a:hover {
-  text-decoration: none;
-  color: #c0ddb7;
-  transition: 0.5s;
-}
-
-#ReceitaPassos {
-  text-align: center;
-  font-size: 20px;
-}
-#ReceitaPassos ul {
-  text-decoration: none;
-  color: #ffffff;
-}
-#ReceitaPassos p {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 25px;
-}
-#ReceitaPassos h1 {
-  text-decoration: none;
-  color: #84be75;
-}
-#ReceitaPassos h2 {
-  text-decoration: none;
-  color: #aee5a0;
-}
-#ReceitaPassos h3 {
-  text-decoration: none;
-  color: #aee5a0;
-}
-
-#Contato {
-  text-align: center;
-  font-size: 20px;
-  color: #000000;
-  background-color: #798b737c;
-  box-shadow: 0px 0px 30000px#798b73;
-}
 #Rodape {
   text-align: center;
   font-size: 20px;
@@ -166,4 +119,18 @@ body {
   display: inline-block;
   padding: 15px 20px;
   font-size: 20px;
+}
+
+#ReceitasEmListas {
+  text-align: center;
+  font-size: 20px;
+}
+#ReceitasEmListas a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#ReceitasEmListas a:hover {
+  text-decoration: none;
+  color: #c0ddb7;
+  transition: 0.5s;
 }
